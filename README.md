@@ -9,6 +9,11 @@ git clone https://github.com/vovanphuc/elastic_simCSE.git
 cd elastic_simCSE
 pip install -r requirements.txt
 ```
+## Chỉnh đường dẫn
+- chỉnh lại đường dẫn của file jobs.csv tùy theo mỗi máy
+```
+df = pd.read_csv('jobs.csv')
+```
 ## Chạy app
 ```
 streamlit run sentiment.py
