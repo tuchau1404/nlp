@@ -8,7 +8,7 @@ flag = False
 @st.cache(allow_output_mutation=True)
 def load_es():
     model_embedding = SentenceTransformer('VoVanPhuc/sup-SimCSE-VietNamese-phobert-base')    
-    df = pd.read_csv('s3-nlp3\jobs.csv')
+    df = pd.read_csv('jobs.csv')
     return model_embedding,df
 
 def similarity_percent(embeddings_1, embeddings_2):
