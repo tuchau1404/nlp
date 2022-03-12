@@ -5,8 +5,8 @@
 
 ## Cài đặt
 ```
-git clone https://github.com/vovanphuc/elastic_simCSE.git
-cd elastic_simCSE
+git clone https://github.com/tuchau1404/nlp
+cd nlp
 pip install -r requirements.txt
 ```
 ## Chỉnh đường dẫn
